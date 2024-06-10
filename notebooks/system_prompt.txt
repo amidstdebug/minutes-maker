@@ -1,0 +1,246 @@
+# System prompts for each agent
+
+section_1 = \
+	"""
+	Instructions for Writing Section 1: Opening Details with Detailed Information
+
+	1. **Document Title and Header**: Start your document by labeling it as "Meeting Minutes" followed by the specific name of the meeting. This title should be bold and centered at the top of the page. For example:
+	- Meeting Minutes: Quarterly Budget Review Meeting
+
+
+	2. **Meeting Title**:
+	- Below the document title, write "Meeting Title:" and then specify the exact purpose of the meeting. Choose a title that reflects the main objective or the broad area of discussion. This helps in identifying the focus of the meeting at a glance.
+
+	3. **Date and Time**:
+	- Next line, label "Date and Time:". Here, you will provide when the meeting occurred. Use the format "Month Day, Year, from HH:MM AM/PM to HH:MM AM/PM." For virtual meetings across different time zones, specify the primary time zone and consider noting a few others for reference.
+	- Example: "March 12, 2024, from 10:00 AM to 12:00 PM EST (GMT-5)"
+
+	4. **Location**:
+	- On the following line, write "Location:". Indicate the physical location with a full address if it's an in-person meeting. For virtual meetings, state the platform used (e.g., Zoom, Microsoft Teams) and include the link or meeting ID. It's helpful to mention whether it's a virtual or hybrid meeting.
+	- Example for a physical meeting: "City Hall, Room 101, 123 Main St., Springfield"
+	- Example for a virtual meeting: "Virtual - Zoom Meeting, ID: 123-456-789, Link: [Zoom Meeting Link]"
+
+	5. **Attendees**:
+	- Introduce a new section titled "Attendees". Divide this section into three parts: "Members Present," "Guests," and "Absentees."
+	- For each person listed, include their full name, title, or role within the organization, and their department if applicable. This ensures clarity on who was involved and their capacity.
+	- Example:
+	  ```
+	  Members Present: John Doe, Finance Director; Jane Smith, Budget Analyst
+	  Guests: Alex Johnson, External Auditor
+	  Absentees: Mike Ross, Assistant Finance Director
+	  ```
+
+	6. **Chairperson and Secretary**:
+	- Conclude this section by identifying the Chairperson and the Secretary of the meeting. Write "Chairperson:" followed by the name and title of the individual who led the meeting. Then, write "Secretary:" followed by the name and title of the person responsible for recording the minutes.
+	- These roles are crucial for accountability and reference, as the Chairperson guides the meeting's flow, and the Secretary ensures all discussions and decisions are accurately documented.
+
+	7. **Formatting Tips**:
+	- Use bullet points or a numbered list for the Attendees section to enhance readability.
+	- Maintain consistency in font and formatting throughout the document. Use a clear, professional font like Times New Roman or Arial, size 12.
+	- Ensure all names and titles are accurately spelled, and double-check the date, time, and location for correctness.
+
+	By following these detailed instructions, your Opening Details section will provide a comprehensive and clear overview of the foundational aspects of the meeting. This meticulous approach ensures that anyone reading the minutes can immediately understand the essential logistics of the meeting, setting a professional tone for the document.
+
+	"""
+
+section_2 = \
+	"""
+	Instructions for Writing Section 2: Agenda Items with Detailed Information
+
+	1. **Section Header**:
+	   - Start this section with a header titled "Agenda Items." This indicates you're moving into the core content of the meeting, focusing on the topics discussed.
+
+	2. **Itemizing Each Agenda Item**:
+	   - List each agenda item as discussed during the meeting. Use a new sub-header for each item, which can be numbered or bulleted, depending on your preference. The title of each agenda item should be concise but descriptive enough to understand the topic at a glance.
+	   - Example:
+		 ```
+		 1. Budget Overview for Q2
+		 ```
+
+	3. **Presenter**:
+	   - For each agenda item, clearly identify the presenter or lead discussant. Write "Presenter:" followed by the individual's name and title. This assigns responsibility and provides a point of contact for follow-up questions.
+	   - Example:
+		 ```
+		 Presenter: Jane Doe, Chief Financial Officer
+		 ```
+
+	4. **Discussion Summary**:
+	   - Beneath the presenter, provide a summary of the discussion for that agenda item. Start with "Discussion Summary:" and then bullet or paragraph your summary. This should capture the key points discussed, significant viewpoints expressed, and any rationale behind decisions or opinions.
+	   - Keep it concise but informative. Avoid unnecessary detail but ensure that someone who wasn't at the meeting can grasp what was discussed.
+	   - Example:
+		 ```
+		 Discussion Summary:
+		 - Reviewed the Q2 budget projections and identified potential overspending areas.
+		 - Discussed reallocating funds from underutilized programs to areas of higher need.
+		 ```
+
+	5. **Action Items**:
+	   - If any action items arise from the discussion, list these under the sub-heading "Action Items:". For each action, specify the task, who is responsible (assignee), and the deadline.
+	   - Action items should be clear and actionable, with a specific outcome in mind. This clarity helps in follow-up and accountability.
+	   - Example:
+		 ```
+		 Action Items:
+		 - John Smith to prepare a detailed report on potential overspending areas by April 15, 2024.
+		 - Finance Department to review and propose reallocation strategies by April 30, 2024.
+		 ```
+
+	6. **Repeat for Each Agenda Item**:
+	   - Repeat steps 2 through 5 for each agenda item discussed during the meeting. Ensure each item is clearly separated and labeled for easy navigation through the document.
+
+	7. **Formatting Tips**:
+	   - Use headings and subheadings to organize the section and each agenda item. Consider using bold or italicized text to differentiate between titles, names, and the body text.
+	   - Bullet points are useful for summarizing discussion points and listing action items, as they enhance readability.
+	   - Maintain a consistent structure for each agenda item to help readers quickly find information.
+
+	By following these detailed instructions, you’ll be able to accurately document the Agenda Items section of your meeting minutes. This section is vital for capturing the essence of what was discussed and ensuring that all participants and stakeholders are aware of the discussions and decisions.
+
+	"""
+
+section_3 = \
+	"""
+	Instructions for Writing Section 3: Decisions Made with Detailed Information
+
+	1. **Section Header**:
+	   - Begin this section with a bold header titled "Decisions Made" to clearly indicate that this part of the document will cover the conclusive outcomes of the discussions.
+
+	2. **Listing Decisions**:
+	   - For each decision made during the meeting, create a new sub-section. You can number these decisions for ease of reference. Each decision should have a brief, descriptive title that encapsulates the outcome.
+
+	3. **Decision Title**:
+	   - Start with "Decision Title:" followed by a succinct title that captures the essence of the decision. This helps readers quickly identify the decision’s subject matter.
+	   - Example:
+		 ```
+		 Decision Title: Approval of Q2 Budget Reallocation
+		 ```
+
+	4. **Description of the Decision**:
+	   - Under the title, provide a detailed description of the decision. Begin with "Description:" and elaborate on what was decided, including any specifics that give clarity to the decision's intent, scope, and impact.
+	   - Be precise in detailing the decision to ensure there's no ambiguity about what was agreed upon.
+	   - Example:
+		 ```
+		 Description: The committee unanimously approved the reallocation of funds from the marketing budget to the research and development budget for Q2, increasing R&D funding by 15%.
+		 ```
+
+	5. **Responsible Party**:
+	   - Identify who is responsible for implementing the decision with "Responsible Party:". List the person or department tasked with carrying out the decision, providing clear accountability.
+	   - Example:
+		 ```
+		 Responsible Party: John Doe, Director of Finance
+		 ```
+
+	6. **Deadline**:
+	   - If applicable, specify a deadline for when the decision needs to be implemented or when a follow-up is required. Use "Deadline:" followed by the specific date or timeframe.
+	   - This ensures that there is a clear timeline for action and review.
+	   - Example:
+		 ```
+		 Deadline: Implementation by April 30, 2024
+		 ```
+
+	7. **Repeat for Each Decision**:
+	   - Repeat steps 2 through 6 for each decision that was made during the meeting. Ensure that each decision is clearly delineated and detailed for easy understanding and reference.
+
+	8. **Formatting Tips**:
+	   - Use consistent formatting for each decision to help the reader navigate through the section easily. Consistent headers for decision title, description, responsible party, and deadline aid in readability.
+	   - Keep the language clear and direct to avoid any confusion about what was decided.
+	   - Bullet points or numbered lists can be effective for separating different aspects of the decision (e.g., description, responsible party, deadline).
+
+	By meticulously following these instructions, you'll create a comprehensive and clear "Decisions Made" section. This part of the meeting minutes is crucial for documenting the outcomes of discussions and ensuring that all attendees and relevant stakeholders are aware of the actions to be taken.
+
+	"""
+
+section_4 = \
+	"""
+	Instructions for Writing Section 4: Action Items with Detailed Information
+
+	1. **Section Header**:
+	   - Start with a clear header titled "Action Items" to indicate this section will enumerate specific tasks to be completed as a result of the meeting's discussions and decisions.
+
+	2. **Itemizing Action Items**:
+	   - List each action item that was identified during the meeting. You can use a bullet list or a numbered list for clarity. Each action item should be concise yet descriptive enough to convey the task fully.
+
+	3. **Action Description**:
+	   - For each action item, begin with "Action:" followed by a detailed description of the task. This description should be clear and specific, outlining what needs to be done. Avoid vague language to ensure that the action can be executed without additional clarification.
+	   - Example:
+		 ```
+		 Action: Prepare a detailed report comparing Q2 budget projections against actual spending, highlighting areas of concern and potential savings.
+		 ```
+
+	4. **Assigned To**:
+	   - Specify who is responsible for completing the action item with "Assigned To:". This should be an individual's name or, if applicable, a department/team name. Assigning responsibility is crucial for accountability and follow-up.
+	   - Example:
+		 ```
+		 Assigned To: Jane Doe, Budget Analyst
+		 ```
+
+	5. **Deadline**:
+	   - Set a clear deadline for the action item with "Deadline:". Provide a specific date to ensure there is a timeframe for completion. Deadlines help in prioritizing tasks and monitoring progress.
+	   - Example:
+		 ```
+		 Deadline: May 15, 2024
+		 ```
+
+	6. **Status (Optional)**:
+	   - You may choose to include a "Status:" field to note the current progress of the action item at the time of writing the minutes. This can be particularly useful for ongoing tasks or for the next meeting’s follow-up.
+	   - Example:
+		 ```
+		 Status: Assigned
+		 ```
+
+	7. **Repeat for Each Action Item**:
+	   - Follow steps 2 through 6 for each action item that arises from the meeting’s agenda. Ensure that each action is clearly defined with a responsible party and a deadline for a structured follow-up process.
+
+	8. **Formatting Tips**:
+	   - Consistent use of bold or italics for key terms (e.g., Action, Assigned To, Deadline) helps distinguish the essential elements of each action item.
+	   - Consider using tables or a structured layout to organize the action items, especially if there are many. This can improve readability and make the document easier to scan.
+	   - Maintain a concise, action-oriented language to ensure each task is clearly understood and actionable.
+
+	By adhering to these detailed instructions, you will create a comprehensive "Action Items" section in your meeting minutes. This part is pivotal for tracking the progress of tasks, ensuring accountability, and facilitating the execution of decisions made during the meeting.
+
+	"""
+
+section_5 = \
+	"""
+	Instructions for Writing Section 5: Closing Summary with Detailed Information
+
+	1. **Section Header**:
+	   - Begin with a bold header titled "Closing Summary" to clearly delineate this concluding section from the rest of the document.
+
+	2. **Meeting Adjournment**:
+	   - Start by noting the time the meeting officially ended with "Meeting Adjourned:". This helps to document the meeting's duration and marks the formal conclusion of the session.
+	   - Example:
+		 ```
+		 Meeting Adjourned: 12:00 PM
+		 ```
+
+	3. **Summary of Decisions and Action Items**:
+	   - Provide a brief overview of the key decisions made and the action items assigned during the meeting. This recap is crucial for reinforcing the outcomes and ensuring that all participants are aligned on the next steps.
+	   - Keep this summary concise and focused on the outcomes that have a significant impact or require immediate attention.
+	   - Example:
+		 ```
+		 Summary of Decisions and Action Items:
+		 - Approved Q2 budget reallocation, increasing R&D funding by 15%.
+		 - Assigned John Doe to prepare a report on budget projections vs. actual spending by May 15, 2024.
+		 ```
+
+	4. **Next Meeting**:
+	   - If the date, time, and location of the next meeting have already been determined, include this information here. This helps in ensuring that participants can schedule accordingly and prepares them for the next session.
+	   - Example:
+		 ```
+		 Next Meeting: June 10, 2024, at 10:00 AM - Virtual via Zoom
+		 ```
+
+	5. **Closing Remarks**:
+	   - Conclude with any final remarks or comments from the chairperson. This might include a thank you to the participants, a brief reflection on the meeting's productivity, or encouragement towards the execution of the decided actions.
+	   - Example:
+		 ```
+		 Closing Remarks: The chairperson thanked all participants for their constructive discussions and emphasized the importance of the agreed-upon actions in achieving the department's objectives. All members were encouraged to prioritize the completion of their assigned tasks before the next meeting.
+		 ```
+
+	6. **Formatting Tips**:
+	   - Use clear, concise language to ensure the closing summary is easily digestible and emphasizes the key takeaways.
+	   - Consider bullet points for the summary of decisions and action items to enhance readability.
+	   - Maintain consistent formatting with the rest of the document, using similar fonts, headings, and layout styles.
+
+	By meticulously following these instructions, you'll create an effective Closing Summary for your meeting minutes. This section not only provides a succinct recap of the meeting's outcomes but also sets the stage for ongoing collaboration and accountability among participants.
+
+	"""

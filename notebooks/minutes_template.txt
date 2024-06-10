@@ -1,0 +1,42 @@
+# Sample Minutes Structure
+
+## 1. Opening Details
+This section sets the groundwork for the document, providing a snapshot of the meeting’s logistical details. It includes:
+
+- **Meeting Title:** The official name or subject of the meeting.
+- **Date and Time:** When the meeting took place.
+- **Location:** Where the meeting was held, including virtual meeting links if applicable.
+- **Attendees:** A list of individuals present at the meeting, including their titles or roles. Distinguish between members, guests, and absentees.
+- **Chairperson:** The individual presiding over the meeting.
+- **Secretary:** The person responsible for taking minutes.
+
+## 2. Agenda Items
+Following the opening details, this section outlines all the items discussed during the meeting. Each agenda item should be presented as a separate sub-section that includes:
+
+- **Item Title:** A brief title describing the agenda item.
+- **Presenter:** The name of the person who presented the item.
+- **Discussion Summary:** A concise summary of the discussion points, capturing the essence of what was talked about without delving into excessive detail.
+- **Action Items:** Specific actions to be taken, who is responsible for them, and any deadlines.
+
+## 3. Decisions Made
+This critical section documents the decisions reached during the meeting. For each decision, include:
+
+- **Decision Title:** A short, descriptive title of the decision.
+- **Description:** A brief explanation of the decision made.
+- **Responsible Party:** The person(s) or department(s) responsible for implementing the decision.
+- **Deadline:** If applicable, the timeline for implementation or review.
+
+## 4. Action Items
+Building on the decisions made, this section lists all the action items identified during the meeting, including those mentioned under agenda items but providing more detail. Each action item should specify:
+
+- **Action to be Taken:** A clear description of the task.
+- **Assigned To:** The individual(s) responsible for completing the action.
+- **Deadline:** The date by which the action should be completed.
+- **Status:** Initial status (typically "Assigned" or "In Progress").
+
+## 5. Closing Summary
+The final section wraps up the meeting minutes, providing a succinct summary of the meeting's outcomes and highlighting any next steps. This section includes:
+
+- **a. Meeting Adjournment:** The time the meeting concluded.
+- **b. Next Meeting:** Date, time, and location of the next scheduled meeting, if known.
+- **c. Closing Remarks:** Any final thoughts or comments from the chairperson, emphasizing the importance of the decisions made and the next steps.
